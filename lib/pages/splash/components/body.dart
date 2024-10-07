@@ -30,12 +30,12 @@ class Body extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(
-                    height: 30,
+                    height: 10,
                   ),
                   Text(
                     'Nifed',
                     style:
-                        GoogleFonts.bebasNeue(color: kWhiteColor, fontSize: 60),
+                        GoogleFonts.bebasNeue(color: kWhiteColor, fontSize: 50),
                   ),
                   Spacer(),
                   Column(
@@ -46,17 +46,17 @@ class Body extends StatelessWidget {
                             text: 'Explore\n',
                             style: TextStyle(
                                 fontWeight: FontWeight.w400,
-                                fontSize: 20,
+                                fontSize: 10,
                                 color: kWhiteColor)),
                         TextSpan(
                             text: 'Luxury\nPlace',
                             style: TextStyle(
-                                fontSize: 50,
+                                fontSize: 40,
                                 fontWeight: FontWeight.bold,
                                 color: kWhiteColor))
                       ])),
                       SizedBox(
-                        height: 20,
+                        height: 10,
                       ),
                       DefaultButton(
                           text: 'Explore',
@@ -64,7 +64,7 @@ class Body extends StatelessWidget {
                             Navigator.pushNamed(context, HomeScreen.routeName);
                           }),
                       SizedBox(
-                        height: 40,
+                        height: 20,
                       ),
                     ],
                   )
